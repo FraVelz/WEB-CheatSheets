@@ -1,7 +1,6 @@
-Sí ✅ puedes hacerlo perfectamente con **pnpm**.
-De hecho, es igual que con npm, solo cambia el comando 😉
+# Vanilla + Tailwind CSS + TypeScript + Standard (pnpm)
 
-Te dejo la versión adaptada para proyecto **vanilla + Tailwind + TypeScript + Standard** usando pnpm.
+Guía para proyecto **vanilla + Tailwind + TypeScript + Standard** usando **pnpm**.
 
 ---
 

@@ -1,4 +1,4 @@
-## ¿Qué es **Conventional Commits** (a veces llamado “Traditional Commit”)?
+# Conventional Commits (mensajes de commit)
 
 **Conventional Commits** es una **convención para escribir mensajes de commit en Git** de forma estructurada y estandarizada. Define un formato claro que facilita:
 

@@ -1,4 +1,6 @@
-Si tu proyecto es **vanilla (HTML + JS puro)** y quieres agregar **Tailwind CSS**, **JavaScript Standard Style** (Standard) y **TypeScript**, aquí tienes una guía clara paso a paso 👇
+# Vanilla + Tailwind CSS + TypeScript + Standard (npm)
+
+Si tu proyecto es **vanilla (HTML + JS puro)** y quieres agregar **Tailwind CSS**, **Standard** y **TypeScript**, aquí tienes una guía clara paso a paso.
 
 ---
 
