@@ -1,4 +1,7 @@
-# Notas de Desarrollo Web — Fravelz
+---
+title: Notas de Desarrollo Web
+description: Manual personal — Tailwind CDN/CLI, React sin Vite, Vite, flujo de ramas desarrollo/main.
+---
 
 ---
 

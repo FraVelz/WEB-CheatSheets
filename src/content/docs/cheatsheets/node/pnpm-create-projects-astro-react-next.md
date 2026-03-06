@@ -1,4 +1,7 @@
-# Crear proyectos con pnpm (Astro, React, Next.js)
+---
+title: Crear proyectos con pnpm (Astro, React, Next.js)
+description: Comandos para crear proyectos con pnpm en Astro, React (Vite) y Next.js.
+---
 
 Comandos base para arrancar proyectos con **pnpm** en Astro, React (Vite) y Next.js.
 
@@ -41,8 +44,7 @@ pnpm install
 pnpm dev
 ```
 
-Abre:
-👉 [http://localhost:4321](http://localhost:4321)
+Abre: [http://localhost:4321](http://localhost:4321)
 
 ---
 
@@ -76,8 +78,7 @@ pnpm install
 pnpm dev
 ```
 
-Abre:
-👉 [http://localhost:5173](http://localhost:5173)
+Abre: [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -112,8 +113,7 @@ Te preguntará:
 pnpm dev
 ```
 
-Abre:
-👉 [http://localhost:3000](http://localhost:3000)
+Abre: [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -127,47 +127,8 @@ Abre:
 
 ---
 
-# 🧠 Bonus: Estructura típica
-
-### Astro
-
-```
-src/
-  pages/
-  components/
-```
-
-### React (Vite)
-
-```
-src/
-  App.jsx
-  main.jsx
-```
-
-### Next.js (App Router)
-
-```
-app/
-  page.tsx
-  layout.tsx
-```
-
----
-
 # 🎯 Recomendación rápida
 
 * 🔥 Landing page rápida → Astro
 * ⚛️ Dashboard SPA → React + Vite
 * 🚀 Fullstack serio → Next.js
-
----
-
-Si quieres, puedo hacerte:
-
-* Comparación profunda Astro vs Next vs React
-* Cómo agregar Tailwind en cada uno
-* Cómo configurar ESLint + Prettier
-* Cómo usar pnpm workspaces con los tres juntos
-
-¿Qué quieres hacer exactamente?

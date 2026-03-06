@@ -1,4 +1,7 @@
-# Vanilla + Tailwind CSS + TypeScript + Standard (npm)
+---
+title: Vanilla + Tailwind + TypeScript + Standard (npm)
+description: Guía para proyecto vanilla con Tailwind, TypeScript y Standard usando npm.
+---
 
 Si tu proyecto es **vanilla (HTML + JS puro)** y quieres agregar **Tailwind CSS**, **Standard** y **TypeScript**, aquí tienes una guía clara paso a paso.
 

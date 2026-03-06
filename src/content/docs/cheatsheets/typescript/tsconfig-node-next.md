@@ -1,4 +1,7 @@
-# tsconfig.json (NodeNext) — configuración recomendada
+---
+title: tsconfig.json (NodeNext)
+description: Configuración recomendada de tsconfig para Node con ESM.
+---
 
 > Nota: `tsconfig.json` admite comentarios (JSONC). Si lo necesitas como JSON estricto, quítalos.
 

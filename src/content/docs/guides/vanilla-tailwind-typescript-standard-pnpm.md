@@ -1,4 +1,7 @@
-# Vanilla + Tailwind CSS + TypeScript + Standard (pnpm)
+---
+title: Vanilla + Tailwind + TypeScript + Standard (pnpm)
+description: Guía para proyecto vanilla con Tailwind, TypeScript y Standard usando pnpm.
+---
 
 Guía para proyecto **vanilla + Tailwind + TypeScript + Standard** usando **pnpm**.
 

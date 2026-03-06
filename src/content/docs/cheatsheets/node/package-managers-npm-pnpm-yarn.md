@@ -1,4 +1,7 @@
-# Gestores de paquetes en Node: npm, pnpm y Yarn
+---
+title: Gestores de paquetes en Node
+description: Comparativa rápida de npm, pnpm y Yarn (ventajas, usos típicos, panorama 2026).
+---
 
 Notas rápidas para entender **npm**, **pnpm** y **Yarn**, y cuándo conviene cada uno.
 
@@ -125,22 +128,6 @@ Si estás aprendiendo → empieza con **npm**
 
 ---
 
-Si quieres, te explico también qué es exactamente un *lockfile* y por qué es tan importante en equipos 👀
-
-
-
-
-
-
-
-
-
-Sí 👀 hay más, pero en la práctica el mercado real gira alrededor de 3 principales.
-
-Te explico el panorama completo de forma profesional:
-
----
-
 # 🏆 Los 3 grandes (los que realmente importan)
 
 * **npm**
@@ -161,8 +148,6 @@ Con estos cubres casi todo el ecosistema Node.
 * Aún no tan común en empresas grandes
 * Popular en proyectos nuevos
 
----
-
 ## 🔹 **Deno**
 
 * Alternativa a Node
@@ -170,66 +155,16 @@ Con estos cubres casi todo el ecosistema Node.
 * Maneja dependencias diferente (por URL)
 * Poco común en empresas tradicionales
 
----
-
 ## 🔹 **Corepack**
 
 * Viene con Node moderno
 * Permite usar npm, pnpm o Yarn sin instalarlos globalmente
 * No es un gestor nuevo, es un "puente"
 
----
+## 🔹 **Rush** / **Lerna**
 
-## 🔹 **Rush**
-
-* Para monorepos grandes
-* Usado en empresas grandes
-* Funciona encima de npm/pnpm/yarn
-
----
-
-## 🔹 **Lerna**
-
-* Manejo de monorepos
-* No reemplaza npm, trabaja encima
-
----
-
-# 🎯 Entonces… ¿hay muchos?
-
-Sí, pero realmente se dividen en 2 categorías:
-
-### 1️⃣ Package Managers reales
-
-* npm
-* pnpm
-* Yarn
-* Bun (incluido dentro de Bun)
-
-### 2️⃣ Herramientas que trabajan encima
-
-* Rush
-* Lerna
-* Nx
-* Turborepo
-
----
-
-# 🧠 Lo importante que debes entender
-
-Todos hacen lo mismo en el fondo:
-
-* Resolver dependencias
-* Crear lockfile
-* Instalar en node_modules (excepto Deno)
-* Ejecutar scripts
-
-La diferencia real está en:
-
-* Velocidad
-* Manejo de dependencias duplicadas
-* Estructura interna de node_modules
-* Soporte empresarial
+* Para monorepos
+* Funcionan encima de npm/pnpm/yarn
 
 ---
 
@@ -239,22 +174,3 @@ La diferencia real está en:
 * Startups modernas → pnpm
 * Proyectos antiguos → Yarn
 * Early adopters → Bun
-
----
-
-# 🔥 Consejo profesional si quieres adaptarte a todo
-
-Aprende bien:
-
-1. Cómo funcionan las dependencias
-2. Qué es semver (^ ~)
-3. Qué es un lockfile
-4. Qué es node_modules realmente
-
-Si entiendes eso, cambiar de gestor te toma minutos.
-
----
-
-Si quieres, te explico algo más interesante:
-
-👉 Por qué pnpm es técnicamente más correcto que npm a nivel de arquitectura.

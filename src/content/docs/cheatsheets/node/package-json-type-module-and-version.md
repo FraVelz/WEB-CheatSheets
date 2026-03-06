@@ -1,7 +1,6 @@
-# `package.json`: `"type": "module"` y `"version"`
-
-Guía rápida para entender `type: "module"` y cómo manejar la versión de tu proyecto.
-
+---
+title: package.json — type module y version
+description: "Qué significa type module y cómo interpretar la version (SemVer)."
 ---
 
 # 1️⃣ ¿Por qué `"type": "module"`?
@@ -48,7 +47,7 @@ Cuando en tu `package.json` pones:
 
 Le estás diciendo a Node:
 
-> “Voy a usar la forma moderna con `import` y `export`.”
+> "Voy a usar la forma moderna con `import` y `export`."
 
 Si no lo pones, Node usa la forma antigua (`require`).
 
@@ -122,10 +121,3 @@ Se vuelve importante cuando:
 | `"type": "module"` | Permite usar `import/export` en Node             |
 | `"version"`        | Número de versión de tu proyecto                 |
 | ¿Cambiarla?        | Solo cuando publicas o haces cambios importantes |
-
----
-
-Si quieres, dime:
-¿Estás haciendo backend con Node o solo frontend con HTML + TS?
-
-Porque ahí cambia un poco cuándo necesitas `"type": "module"`.
